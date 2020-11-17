@@ -1,0 +1,97 @@
+header {
+    background-color: #252584;
+    color: #fff;
+    background-image: url(../../assets/2-banner/banner-rounded-001.svg),
+        url(../../assets/2-banner/banner-rounded-002.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: -5% 105%, 120% 70%;
+    background-size: 30%, 26%;
+
+    nav {
+        padding: 1.5rem 8rem !important;
+        #logo {
+            height: 3.5rem;
+        }
+        a {
+            color: #fff;
+            &:hover {
+                color: #fff;
+                cursor: pointer;
+            }
+        }
+        .active {
+            color: #05befe;
+        }
+        #search-box {
+            background: #fff;
+            -webkit-mask-image: url(../../assets/7-icons/search.svg);
+            mask-image: url(../../assets/7-icons/search.svg);
+            height: 24px;
+            width: 24px;
+            -webkit-mask-repeat: no-repeat;
+            mask-repeat: no-repeat;
+            -webkit-mask-size: 75%;
+            mask-size: 75%;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+        #navbar-responsive {
+            justify-content: flex-end !important;
+        }
+    }
+    #banner {
+        text-align: left;
+        padding: 1rem;
+        h1 {
+            font-size: 3.6rem;
+            font-weight: 900;
+        }
+        img {
+            height: 28rem;
+            width: 29rem;
+            margin-bottom: -4.4rem;
+            margin-top: 1.5rem;
+            position: relative;
+            animation-name: example;
+            animation-iteration-count: infinite;
+            animation-duration: 2s;
+        }
+
+        @keyframes example {
+            0% {
+                top: 0px;
+            }
+            50% {
+                top: -20px;
+            }
+            100% {
+                top: 0px;
+            }
+        }
+    }
+
+    @media (max-width: 576px) {
+        nav {
+            padding: 1rem !important;
+        }
+        #banner {
+            img {
+                height: 27rem;
+                width: 21rem;
+            }
+            h1 {
+                font-size: 2.5rem;
+            }
+        }
+        #navbar-responsive {
+            height: 100vh;
+            text-align: left;
+            padding-left: 1rem;
+            background-image: url(../../assets/2-banner/banner-rounded-001.svg);
+            background-repeat: no-repeat;
+            background-position: 287% 90%;
+            background-size: 112%;
+        }
+    }
+}

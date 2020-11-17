@@ -1,0 +1,19 @@
+#edit-button {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    -webkit-mask-image: url(../../../../assets/7-icons/pencil.svg);
+    mask-image: url(../../../../assets/7-icons/pencil.svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    height: 33px;
+    width: 31px;
+    background-repeat: no-repeat;
+    transform: scale(0.6);
+    border-radius: 53%;
+    padding: 18px;
+    background-color: #252584;
+    &:hover{
+        cursor: pointer;
+    };
+}

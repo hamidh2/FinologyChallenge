@@ -1,0 +1,19 @@
+.heading {
+    color: #252584 !important;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 100%;
+    text-align: left;
+}
+.heading-small {
+    color: #252584 !important;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 100%;
+    text-align: left;
+}
+
+.box-shadow {
+    -webkit-box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.16), 0 7px 15px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.16), 0 7px 15px 0 rgba(0, 0, 0, 0.12);
+}

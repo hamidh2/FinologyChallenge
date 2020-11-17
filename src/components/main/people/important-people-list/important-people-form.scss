@@ -1,0 +1,80 @@
+#peopleModal {
+    .modal-content {
+        border: none;
+        border-radius: 15px;
+        padding: 1rem;
+        min-width: 24rem;
+        .modal-header {
+            border-bottom: none;
+        }
+        .modal-footer {
+            border-top: none;
+            padding: 0;
+        }
+        .modal-body {
+            #user-profile {
+                height: 7rem;
+                width: 7rem;
+                background-color: #dcf0ff;
+                display: flex;
+                justify-content: center;
+                border-radius: 53%;
+                margin-left: auto;
+                margin-right: auto;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 50%;
+                }
+            }
+            input[type="file"] {
+                display: none;
+            }
+
+            .form-group {
+                text-align: left;
+                label {
+                    font-weight: 600;
+                    color: #252584;
+                    font-size: 14px;
+                }
+            }
+
+            button {
+                font-size: 13px;
+                &:first-child {
+                    padding: 0.5rem !important;
+                }
+                &:last-child {
+                    padding: 0.3rem 3rem !important;
+                }
+            }
+            #delete-section {
+                margin-top: 1rem;
+                color: #ff002f;
+                font-size: 13px;
+                span {
+                    height: 25px;
+                    width: 25px;
+                    margin-right: .7rem;
+                    background-color: #ff002f14;
+                    border-radius: 50%;
+                    i {
+                        mask-image: url("../../../../assets/7-icons/garbage.svg");
+                        background-color: #ff002f;
+                        padding: 11px;
+                        -webkit-mask-repeat: no-repeat;
+                        mask-repeat: no-repeat;
+                        -webkit-mask-position: center;
+                        mask-position: center;
+                        mask-size: 50%;
+                    }
+                    &:hover{
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}

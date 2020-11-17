@@ -1,0 +1,29 @@
+#conatct-us {
+    margin-bottom: 10rem;
+
+    form {
+        -webkit-box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.16), 0 7px 15px 0 rgba(0, 0, 0, 0.12);
+        box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.16), 0 7px 15px 0 rgba(0, 0, 0, 0.12);
+        border-radius: 5px;
+        background-color: #fff;
+        padding: 2.5rem;
+        text-align: left;
+        button{
+            border: none;
+        }
+    }
+
+    iframe {
+        border: 0;
+        margin: 4rem 0 0 -3.7rem;
+        height: 480px;
+        width: 444px;
+    }
+
+    @media (max-width: 576px) {
+        #map-container {
+            overflow: scroll;
+            margin: 1.1rem;
+        }
+    }
+}
